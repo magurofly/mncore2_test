@@ -1,0 +1,72 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" version="24.7.5">
+  <diagram name="ページ1" id="FxQBrD5Ot5ft5m9rvJ0C">
+    <mxGraphModel dx="261" dy="265" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="1m_L-33MPqavRJye5LlU-2" value="PE" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="120" y="360" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="1m_L-33MPqavRJye5LlU-4" value="×4" style="endArrow=classic;html=1;rounded=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="1m_L-33MPqavRJye5LlU-5" target="1m_L-33MPqavRJye5LlU-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="320" as="sourcePoint" />
+            <mxPoint x="210" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1m_L-33MPqavRJye5LlU-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="1m_L-33MPqavRJye5LlU-8" target="1m_L-33MPqavRJye5LlU-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1m_L-33MPqavRJye5LlU-5" value="MAB&lt;div&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;行列演算ブロック&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="120" y="280" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1m_L-33MPqavRJye5LlU-7" value="×16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="1m_L-33MPqavRJye5LlU-6" target="1m_L-33MPqavRJye5LlU-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1m_L-33MPqavRJye5LlU-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="1m_L-33MPqavRJye5LlU-6" target="1m_L-33MPqavRJye5LlU-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1m_L-33MPqavRJye5LlU-6" value="L1B&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;Level 1 Block&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="120" y="200" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1m_L-33MPqavRJye5LlU-9" value="×8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="1m_L-33MPqavRJye5LlU-8" target="1m_L-33MPqavRJye5LlU-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1m_L-33MPqavRJye5LlU-8" value="L2B&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;Level 2 Block&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="120" y="120" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1m_L-33MPqavRJye5LlU-10" value="MAU&lt;div&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;行列演算ユニット&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="240" y="280" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1m_L-33MPqavRJye5LlU-11" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="1m_L-33MPqavRJye5LlU-5" target="1m_L-33MPqavRJye5LlU-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="170" y="330" as="sourcePoint" />
+            <mxPoint x="120" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1m_L-33MPqavRJye5LlU-12" value="L1BM&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;(SRAM)&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="240" y="200" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1m_L-33MPqavRJye5LlU-15" value="L2BM&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;(SRAM)&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="240" y="120" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1m_L-33MPqavRJye5LlU-18" value="×8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="1m_L-33MPqavRJye5LlU-17" target="1m_L-33MPqavRJye5LlU-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1m_L-33MPqavRJye5LlU-17" value="トップレベル" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="120" y="40" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1m_L-33MPqavRJye5LlU-19" value="L2Bは2個ずつグループになっており、&lt;div&gt;各グループにはPDM(SRAM)とDRAMがついている&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="200" y="90" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1m_L-33MPqavRJye5LlU-20" value="ALU" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="400" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1m_L-33MPqavRJye5LlU-21" value="&lt;div&gt;ローカル&lt;/div&gt;メモリ" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="400" width="60" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
